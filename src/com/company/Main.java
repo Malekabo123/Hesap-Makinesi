@@ -7,13 +7,13 @@ public class Main {
     static void hesapMakinesi() {
         Scanner sc= new Scanner(System.in);
 
-        System.out.println("Enter first number...");
+        System.out.println("Enter first number..");
         double a= sc.nextDouble();
 
-        System.out.println("Enter operation...");
+        System.out.println("Enter operation..");
         String b= sc.next();
 
-        System.out.println("Enter second number...");
+        System.out.println("Enter second number..");
         double c= sc.nextDouble();
 
         if (b.equals("+")){
