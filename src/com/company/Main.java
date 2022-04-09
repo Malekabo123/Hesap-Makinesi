@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
 
-    static void hesapMakiesi() {
+    static void hesapMakinesi() {
         Scanner sc= new Scanner(System.in);
 
         System.out.println("Enter first number...");
@@ -24,8 +24,6 @@ public class Main {
 
 
     public static void main(String[] args) {
-        hesapMakiesi();
-
-        
+        hesapMakinesi();
     }
 }
