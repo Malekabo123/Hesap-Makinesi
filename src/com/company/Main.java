@@ -18,6 +18,9 @@ public class Main {
 
         if (b.equals("+")){
             System.out.println(a+c);
+        } else if (b.equals("/")){
+            double sonuc = a/c;
+            System.out.println(sonuc);
         }
 
     }
