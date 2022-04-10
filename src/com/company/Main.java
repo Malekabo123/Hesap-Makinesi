@@ -8,19 +8,23 @@ public class Main {
         Scanner sc= new Scanner(System.in);
 
         System.out.println("Enter first number..");
-        double a= sc.nextDouble();
+        int a= sc.nextInt();
 
         System.out.println("Enter operation..");
         String b= sc.next();
 
         System.out.println("Enter second number..");
-        double c= sc.nextDouble();
+        int c= sc.nextInt();
 
         if (b.equals("+")){
             System.out.println(a+c);
-        } else if (b.equals("/")){
-            double sonuc = a/c;
-            System.out.println(sonuc);
+        }else if (b.equals("/")){
+            try {
+                System.out.println(a / c);
+            }
+            catch (ArithmeticException e) {
+                System.out.println("Divided by zero operation cannot possible");
+            }
         }
 
     }
